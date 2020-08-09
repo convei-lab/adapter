@@ -1,1 +1,3 @@
 trex-44G/re-nlg_*.json
+models/*
+runs/*

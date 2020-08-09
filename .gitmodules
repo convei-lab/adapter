@@ -4,3 +4,6 @@
 [submodule "RE-NLG-Dataset"]
 	path = RE-NLG-Dataset
 	url = https://github.com/hadyelsahar/RE-NLG-Dataset.git
+[submodule "adapter-transformers"]
+	path = adapter-transformers
+	url = https://github.com/Adapter-Hub/adapter-transformers.git
