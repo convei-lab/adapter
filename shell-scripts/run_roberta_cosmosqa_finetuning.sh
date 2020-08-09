@@ -1,4 +1,4 @@
-python run_multiple_choice.py \
+cd ../transformers && pwd && python ./examples/multiple-choice/run_multiple_choice.py \
   --task_name cosmosqa \
   --model_name_or_path roberta-large \
   --do_train \
@@ -7,7 +7,7 @@ python run_multiple_choice.py \
   --learning_rate 5e-5 \
   --num_train_epochs 1 \
   --max_seq_length 80 \
-  --output_dir '/home/convei_intern1/race_out/predict_test' \
+  --output_dir '/home/convei_intern1/kadapter/models/cosmosqa-test' \
   --per_gpu_eval_batch_size=8 \
   --per_gpu_train_batch_size=8 \
   --gradient_accumulation_steps 2 \
