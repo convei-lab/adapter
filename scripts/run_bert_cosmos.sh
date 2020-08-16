@@ -1,0 +1,14 @@
+cd ../transformers && pwd && python ./examples/multiple_choice/run_multiple_choice.py \
+  --task_name cosmosqa \
+  --model_name_or_path bert-base-uncased \
+  --do_train \
+  --do_eval \
+  --data_dir '/home/convei_intern1/nskb/cosmosqa' \
+  --learning_rate 5e-5 \
+  --num_train_epochs 1 \
+  --max_seq_length 80 \
+  --output_dir '/home/convei_intern1/kadapter/models/cosmosqa-test' \
+  --per_gpu_eval_batch_size=8 \
+  --per_gpu_train_batch_size=8 \
+  --gradient_accumulation_steps 2 \
+  --overwrite_output

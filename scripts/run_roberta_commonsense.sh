@@ -1,0 +1,14 @@
+cd ../transformers && pwd && python ./examples/multiple_choice/run_multiple_choice.py \
+  --task_name commonsenseqa \
+  --model_name_or_path bert-base-uncased \
+  --do_train \
+  --do_eval \
+  --data_dir '/home/convei_intern1/kadapter/data/commonsenseqa' \
+  --learning_rate 5e-5 \
+  --num_train_epochs 10 \
+  --max_seq_length 80 \
+  --output_dir '/home/convei_intern1/kadapter/models/commonsenseqa-pilot' \
+  --per_gpu_eval_batch_size=64 \
+  --per_gpu_train_batch_size=64 \
+  --gradient_accumulation_steps 2 \
+  --overwrite_output

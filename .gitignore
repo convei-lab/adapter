@@ -1,6 +1,4 @@
-trex-44G/re-nlg_*.json
 data/*
 models/*
 adapters/*
 runs/*
-src/runs/*
