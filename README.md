@@ -1,1 +1,1 @@
-# kadapter
+# adapter
