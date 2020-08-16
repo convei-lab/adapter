@@ -1,6 +1,3 @@
-[submodule "transformers"]
-	path = transformers
-	url = https://github.com/huggingface/transformers.git
 [submodule "adapter-transformers"]
 	path = adapter-transformers
 	url = https://github.com/theorist17/adapter-transformers.git
