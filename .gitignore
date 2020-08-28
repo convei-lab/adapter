@@ -2,3 +2,4 @@ data/*
 models/*
 adapters/*
 runs/*
+tokenizers/*
