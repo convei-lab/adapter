@@ -1,5 +1,8 @@
-data/*
-models/*
-adapters/*
-runs/*
-tokenizers/*
+data
+models
+adapters
+runs
+tokenizers
+neo4j-kbs
+wandb
+fusions
